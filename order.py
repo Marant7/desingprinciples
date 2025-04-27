@@ -1,7 +1,8 @@
+# order.py
 class Order:
-    def __init__(self, items, total_amount):
+    def __init__(self, items):
         self.items = items
-        self.total_amount = total_amount
+        self.total_amount = sum(item['price'] for item in items)
 
     def calculate_total(self):
-        return sum(item['price'] for item in self.items)
+        return self.total_amount
