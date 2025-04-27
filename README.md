@@ -1,15 +1,18 @@
-# Software Design Principles in Python
+# Payment System
 
-This project demonstrates the application of common software design principles like SRP, OCP, LSP, ISP, and DIP using Python code.
+This is a simple payment system demonstrating the application of key software design principles:
 
-### Structure
-- `order.py`: Defines the `Order` class to handle order details.
-- `payment_methods.py`: Contains the classes for different payment methods.
-- `order_service.py`: Implements the `OrderService` class to process orders.
+- **Single Responsibility Principle (SRP)**
+- **Open/Closed Principle (OCP)**
+- **Liskov Substitution Principle (LSP)**
+- **Interface Segregation Principle (ISP)**
+- **Dependency Inversion Principle (DIP)**
 
-### Run the code
+### How to Run
 
-You can test the code by running:
+1. Clone the repository.
+2. Install dependencies (if any).
+3. Run the main application:
 
 ```bash
-python order_service.py
+python main.py
